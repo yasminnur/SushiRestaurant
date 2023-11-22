@@ -21,3 +21,11 @@
 .hamburger-active > span:nth-child(3) {   
     @apply -rotate-45
 }
+
+.background-container {
+    /* background: linear-gradient(45deg, #ff8c00, #ff2e96); */
+    -webkit-background-clip: text;
+    /* color: transparent; */
+    /* font-size: 36px; */
+    font-weight: bold;
+  }
